@@ -1,0 +1,15 @@
+body {
+  background-color: hotpink;
+}
+
+h1,li {
+  font-family: Comic Sans MS;
+  color: green;
+  background-color: skyblue;
+}
+
+p {
+  font-family: Georgia;
+  background-color: lightgreen;
+  color: darkblue;
+}

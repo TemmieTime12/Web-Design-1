@@ -1,0 +1,141 @@
+body {
+  background-color: #0099cc;
+}
+
+h1 {
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-style: italic;
+  color: #cc0099;
+}
+
+p {
+  font-family: Segoe UI;
+  font-style: italic;
+  text-decoration: underline;
+  color: #33cc33;
+  background-color: black;
+}
+
+li {
+  background-color: #cccc00;
+}
+
+.button {
+  border-radius: 2px;
+  background-color: #00ff00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 1s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn.success {
+  background-color: green;
+  border:none;
+  border-radius: 50%;
+  color: darkblue;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: darkblue;
+  color: green;
+}
+/* Make Image Work */
+.container img {
+  width: 100%;
+  height: auto;
+}
+/* Style Button */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+  a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: darkgreen;}
+.danger {color: red;}
+.default {color: black;}

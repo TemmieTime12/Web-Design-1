@@ -1,0 +1,20 @@
+body {
+  background-color: lightgreen;
+}
+
+h1 {
+  background-color: skyblue;
+  font-family: Comic Sans MS;
+}
+
+li {
+  background-color: skyblue;
+  color: forestgreen;
+}
+
+h2 {
+  background-color: green;
+  font-family: Comic Sans MS;
+  font-style: oblique;
+  color: blue;
+}

@@ -1,0 +1,20 @@
+header {
+	background-color: black;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+a:link, a:visited {
+	color: #0073e6;
+	font-family: Comic Sans MS;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover, a:active {
+	color: #33cc00;
+}
+
+body {
+	background-color: #666666;
+}

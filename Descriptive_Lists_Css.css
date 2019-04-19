@@ -1,0 +1,22 @@
+dt {
+  font-family: Comic Sans MS;
+  background-color: skyblue;
+  color: black;
+  text-align: center;
+}
+
+body {
+  background-color: darkgrey;
+}
+
+dd {
+  background-color: forestgreen;
+  font-family: Segoe UI;
+}
+
+h1 {
+  background-color: darkred;
+  font-family: Georgia;
+  text-align: center;
+  color: white;
+}

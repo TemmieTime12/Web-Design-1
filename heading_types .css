@@ -1,0 +1,32 @@
+
+body {
+  background-color: darkgreen 
+}
+h1 {
+  color :aqua;
+  font-family: Comic Sans MS
+}
+h2 {
+  color :silver
+}
+h3 {
+  color :red;
+  font-family: Comic Sans MS
+}
+h4 {
+  color :pink;
+  font-family: Comic Sans MS
+}
+h5 {
+  color :purple;
+  font-family: Comic Sans MS
+}
+h6 {
+  color :blue;
+  font-family: Comic Sans MS
+}
+p {
+  font-family: Comic Sans MS
+}
+
+  
